@@ -1,7 +1,7 @@
 const About = () => (
   <section
     id="about"
-    className="p-10 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white border border-white/20 rounded-xl mx-4 md:mx-10 my-6 shadow"
+    className="p-10 bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-white border border-white/20 rounded-xl mx-4 md:mx-10 my-6 shadow"
   >
     <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
 
@@ -23,13 +23,13 @@ const About = () => (
 
       {/* Info */}
       <div className="text-center md:text-left space-y-3">
-        <p className="text-lg text-gray-700 dark:text-gray-300">
+        <p className="text-lg text-gray-700 dark:text-gray-100">
           Hello! I’m Yash Sawarkar, a passionate{" "}
           <strong>full-stack web developer</strong> focused on building clean,
           efficient, and scalable web applications. I enjoy working with both
           frontend and backend technologies to bring ideas to life.
         </p>
-        <ul className="text-gray-700 space-y-1">
+        <ul className="text-gray-500 space-y-1">
           <li>
             <strong>📍 Location:</strong> Nagpur, Maharashtra, India
           </li>
